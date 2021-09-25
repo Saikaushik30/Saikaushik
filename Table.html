@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\tablestyle.css">
+    <title>Table</title>
+</head>
+<body>
+    <div class="container">
+        <div class="trap-wrapper">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Manage<strong>Employees</strong></h2>
+                </div>
+                <div class="col-sm-06">
+                   <button id="show" class="table-btnAdd">
+                       <img src="assets/add.JPG" class="table-image">Add Employee
+                   </button>
+                   <button id="show" class="table-btnDel">
+                    <img src="assets/delete-icon.JPG" class="table-image">Delete
+                </button>
+                </div>
+            </div>
+        </div>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        <span class="custom-checkbox">
+                            <input type="checkbox" id="selectAll">
+                            <label for="selectAll"></label>
+                        </span>
+                    </th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Phone Number</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="custom-checkbox">
+                            <input type="checkbox" id="checkbox1" name="option[]" value="1">
+                            <label for="checkbox1"></label>
+                        </span>
+                    </td>
+                    <td>Thomas Hardy</td>
+                    <td>thomashardy@mail.com</td>
+                    <td>89 Chiaroscuro Rd, Portland, USA</td>
+                    <td>(171) 555-2222</td>
+                    <td>
+                        <input type="image" src="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\assets\edit.JPG" name="Edit" width="30" height="30" alt="Edit">
+                        <input type="image" src="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\assets\delete.JPG" name="Delete" width="30" height="30" alt="Delete">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="custom-checkbox">
+                            <input type="checkbox" id="checkbox2" name="option[]" value="1">
+                            <label for="checkbox2"></label>
+                        </span>
+                    </td>
+                    <td>Domainique Perrrier</td>
+                    <td>domainiqueperrier@mail.com</td>
+                    <td>Obere Str. 57, Berlin, Germany</td>
+                    <td>(313) 555-5735</td>
+                    <td>
+                        <input type="image" src="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\assets\edit.JPG" name="Edit" width="30" height="30" alt="Edit">
+                        <input type="image" src="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\assets\delete.JPG" name="Delete" width="30" height="30" alt="Delete">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="custom-checkbox">
+                            <input type="checkbox" id="checkbox3" name="option[]" value="1">
+                            <label for="checkbox3"></label>
+                        </span>
+                    </td>
+                    <td>Maria Ander</td>
+                    <td>mariaander@mail.com</td>
+                    <td>rue Lauriston, Paris, France</td>
+                    <td>(503) 555-9910</td>
+                    <td>
+                        <input type="image" src="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\assets\edit.JPG" name="Edit" width="30" height="30" alt="Edit">
+                        <input type="image" src="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\assets\delete.JPG" name="Delete" width="30" height="30" alt="Delete">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="custom-checkbox">
+                            <input type="checkbox" id="checkbox4" name="option[]" value="1">
+                            <label for="checkbox4"></label>
+                        </span>
+                    </td>
+                    <td>Fran Wilson</td>
+                    <td>franwilson@mail.com</td>
+                    <td>C/ Araquil, 67, Madrid, Spain</td>
+                    <td>(204) 619-5731</td>
+                    <td>
+                        <input type="image" src="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\assets\edit.JPG" name="Edit" width="30" height="30" alt="Edit">
+                        <input type="image" src="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\assets\delete.JPG" name="Delete" width="30" height="30" alt="Delete">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="custom-checkbox">
+                            <input type="checkbox" id="checkbox5" name="option[]" value="1">
+                            <label for="checkbox5"></label>
+                        </span>
+                    </td>
+                    <td>Martin Blank</td>
+                    <td>martinblank@mail.com</td>
+                    <td>Via Monte Bianco 34, Turin, Italy</td>
+                    <td>(480) 631-2097</td>
+                    <td>
+                        <input type="image" src="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\assets\edit.JPG" name="Edit" width="30" height="30" alt="Edit">
+                        <input type="image" src="C:\Users\sai.kumaraguru\Documents\UI and UX\HTML personal site\assets\delete.JPG" name="Delete" width="30" height="30" alt="Delete">  
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <dialog class="table-dbox" id="dbox">
+                <div>
+                    <h3>Add Employee</h3>
+                    <div class="dbox-input">
+                        <label>Name</label>
+                        <input type="text" />
+                        <label>Email</label>
+                        <input type="email" />
+                        <label>Address</label>
+                        <input type="text" />
+                        <label>Phone Number</label>
+                        <input type="number" />
+                    </div>
+                    <button id="hide">Submit</button>
+                </div>
+            </dialog>
+            
+        </div>
+    </div>
+    <script type="text/Javascript">
+    (function() {
+        var dialog = document.getElementById("dbox");
+        document.getElementById('show').onclick = function(){
+            dialog.show();
+        };
+        document.getElementById('hide').onclick = function(){
+            dialog.close();
+        };})();
+    </script>
+</body>
+</html>
