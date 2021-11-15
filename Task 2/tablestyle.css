@@ -1,0 +1,63 @@
+body{
+    background-color: teal;
+    color: white;
+}
+h1{
+    margin: 0;
+    position: relative;
+    left: 50px;
+}
+.table{
+    display: flex;
+    justify-content: left;
+    
+}
+.button-button1, .button-button2, .button-button3, .button-button4, .button-button5, .button-button6, .button-button7, .button-button8{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: teal;
+}
+tr{
+    color: white;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    margin-top: 10px; 
+    border-radius: 10px;    
+}
+form{
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+.round{
+    margin: auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+}
+.input{
+    background-color: teal;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+}
+.submit{
+    background-color: white; 
+    color: teal;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+.close{
+    background-color: white; 
+    color: teal;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+
